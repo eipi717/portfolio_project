@@ -10,7 +10,7 @@ export const projectsData: Project[] = [
             '80% accuracy for 12 types of insects recognition',
             'Techniques applied to avoid overfitting',
         ],
-        imageUrl: '/images/Projects/Insect_Classifier/1.png',
+        imageUrl: './images/Projects/Insect_Classifier/1.png',
         isLiveAvailable: false,
         isCodeAvailable: true,
         liveUrl: 'http://project-one-live-url.com',
@@ -27,7 +27,7 @@ export const projectsData: Project[] = [
             'A detail view to view the details of a lesson',
             'Recommended lessons based on user\'s preference'
         ],
-        imageUrl: '/images/Projects/Lesson_Booking_System/1.png',
+        imageUrl: './images/Projects/Lesson_Booking_System/1.png',
         isLiveAvailable: false,
         isCodeAvailable: true,
         liveUrl: 'http://project-two-live-url.com',
@@ -40,7 +40,7 @@ export const projectsData: Project[] = [
         detailedDescription: [
             'Collect the recognized target successfully',
         ],
-        imageUrl: '/images/Projects/Waste_Management_Vehicle/1.png',
+        imageUrl: './images/Projects/Waste_Management_Vehicle/1.png',
         isLiveAvailable: true,
         isCodeAvailable: false,
         liveUrl: 'https://drive.google.com/file/d/1uJjILc0tWcQWWN7kShrTcml6qrA9YVBX/view?usp=share_link',
