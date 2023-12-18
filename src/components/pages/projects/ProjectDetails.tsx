@@ -74,7 +74,7 @@ const ProjectDetail: React.FC = () => {
                 </Paper>
 
                 <Box textAlign={'center'} sx={{mt: 5}}>
-                    <Button variant="contained" color="primary" href={'/projects'} sx={{marginRight: 1}}>
+                    <Button variant="contained" color="primary" href={'/portfolio_project#projects'} sx={{marginRight: 1}}>
                         Back
                     </Button>
                 </Box>

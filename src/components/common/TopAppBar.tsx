@@ -37,22 +37,22 @@ export const TopAppBar: React.FC = () => {
                 <Grid item xs={12} md={8}>
                 <Stack direction="row" alignItems="center" spacing={1} justifyContent={"flex-end"}>
 
-                    <IconButton color="inherit" href="/about">
+                    <IconButton color="inherit" href="/portfolio_project#about">
                         <EmojiPeopleIcon sx={{mr: 0.5}}/>
                         <Typography variant={'subtitle1'}>About</Typography>
                     </IconButton>
 
-                    <IconButton color="inherit" href="/experiences">
+                    <IconButton color="inherit" href="/portfolio_project#experiences">
                         <WorkHistoryIcon sx={{mr: 0.5}}/>
                         <Typography variant={'subtitle1'}>Past Exp</Typography>
                     </IconButton>
 
-                    <IconButton color="inherit" href="/projects">
+                    <IconButton color="inherit" href="/portfolio_project#projects">
                         <WorkIcon sx={{mr: 0.5}}/>
                         <Typography variant={'subtitle1'}>Projects</Typography>
                     </IconButton>
 
-                    <IconButton color="inherit" href="/contact">
+                    <IconButton color="inherit" href="/portfolio_project#contact">
                         <EmailIcon sx={{mr: 0.5}}/>
                         <Typography variant={'subtitle1'}>Contact</Typography>
                     </IconButton>
