@@ -29,6 +29,13 @@ export const TopAppBar: React.FC = () => {
                             <LinkedInIcon/>
                         </IconButton>
                         {/* LinkedIn Profile*/}
+
+                        {/* LinkedIn Profile*/}
+                        <IconButton color="inherit" href="mailto:nicholasriven717@gmail.com"
+                                    target="_blank">
+                            <EmailIcon/>
+                        </IconButton>
+                        {/* LinkedIn Profile*/}
                     </Stack>
                 </Stack>
                 </Grid>
@@ -52,10 +59,10 @@ export const TopAppBar: React.FC = () => {
                         <Typography variant={'subtitle1'}>Projects</Typography>
                     </IconButton>
 
-                    <IconButton color="inherit" href="/portfolio_project#contact">
-                        <EmailIcon sx={{mr: 0.5}}/>
-                        <Typography variant={'subtitle1'}>Contact</Typography>
-                    </IconButton>
+                    {/*<IconButton color="inherit" href="/portfolio_project#contact">*/}
+                    {/*    <EmailIcon sx={{mr: 0.5}}/>*/}
+                    {/*    <Typography variant={'subtitle1'}>Contact</Typography>*/}
+                    {/*</IconButton>*/}
                 </Stack>
                 </Grid>
                 {/* Top Right Nav Bar*/}
