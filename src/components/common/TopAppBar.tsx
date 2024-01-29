@@ -24,7 +24,7 @@ export const TopAppBar: React.FC = () => {
                         {/* GitHub Profile*/}
 
                         {/* LinkedIn Profile*/}
-                        <IconButton color="inherit" sx={{color: 'blue'}} href="https://www.linkedin.com/in/chun-him-ho-954053216/"
+                        <IconButton color="inherit" sx={{color: 'blue'}} href="https://www.linkedin.com/in/nicholaschho/"
                                     target="_blank">
                             <LinkedInIcon/>
                         </IconButton>
